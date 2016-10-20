@@ -1,0 +1,14 @@
+{
+  "name": "secure-users-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+	"express-session": "*",
+	"easy-session":"*",
+	"cookie-parser": "*"
+  }
+}

@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/style.css')
+  body
+  p Welcome #{email}
+  
+  p the password hash is #{passwordHash}
+  
+  p match password and hash #{isMatch}
+  
+    form(method="post", action="/validateHash")
+      input(type="hidden", name="_csrf", value="#{csrftoken}")
+      input(type="password", name="password", placeholder="Password")
+      input(type="text", name="hash", placeholder="Hash")
+      button(type="submit") Verify password and hash
+    

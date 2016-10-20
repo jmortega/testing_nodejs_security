@@ -1,0 +1,22 @@
+{
+  "name": "security-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "cookie-parser": "1.4.3",
+    "csurf": "1.9.0",
+    "errorhandler": "1.4.3",
+    "express": "4.14.0",
+    "express-session": "1.14.1",
+    "helmet": "2.3.0",
+    "jade": "1.11.0",
+    "morgan": "1.7.0",
+    "serve-favicon": "2.3.0",
+	"express-validator": "*",
+	"bcrypt-nodejs": "*",
+	"easy-session":"*"
+  }
+}
